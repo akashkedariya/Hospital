@@ -22,7 +22,7 @@ from django.http import Http404
 from rest_framework.views import APIView
 
 
-
+print('===clone successfully======')
 
 @csrf_exempt
 def Register(request):
